@@ -1,3 +1,14 @@
+# Additional features
+
+## Strafe graph
+Visualizes how optimal your strafes are by graphing your mouse movement against the perfect mouse movement.
+
+https://user-images.githubusercontent.com/7321764/176942729-679d03e9-8774-4ea6-9178-c06ea84b554d.mp4
+
+
+
+___
+
 ![Momentum Mod](images/momentumLogo.svg)
 
 > _Momentum Mod's game User Interface files used by the Chaos Source Engine's Panorama UI framework._

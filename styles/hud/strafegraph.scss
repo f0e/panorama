@@ -1,0 +1,11 @@
+@use '../config' as *;
+
+.strafegraph {
+	horizontal-align: center;
+	margin-top: 100px;
+
+	.strafegraph__canvas {
+		width: 500px;
+		height: 200px;
+	}
+}

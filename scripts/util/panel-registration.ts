@@ -24,6 +24,7 @@ declare interface PanelTagNameMap {
 	MomHudJumpTiming: MomHudJumpTiming;
 	MomHudSpecInfo: MomHudSpecInfo;
 	MomHudStrafeTrainer: MomHudStrafeTrainer;
+	MomHudStrafeGraph: MomHudStrafeGraph;
 	MomHudPowerupTimer: MomHudPowerupTimer;
 	MomHudSafeguardIndicator: MomHudSafeguardIndicator;
 	ToastContainer: ToastContainer;
@@ -77,6 +78,9 @@ UiToolkitAPI.RegisterHUDPanel2d('MomHudGroundboost', 'file://{resources}/layout/
 
 declare interface MomHudSpecInfo extends AbstractHudPanel<'MomHudSpecInfo'> {}
 UiToolkitAPI.RegisterHUDPanel2d('MomHudSpecInfo', 'file://{resources}/layout/hud/spec-info.xml');
+
+declare interface MomHudStrafeGraph extends AbstractHudPanel<'MomHudStrafeGraph'> {}
+UiToolkitAPI.RegisterHUDPanel2d('MomHudStrafeGraph', 'file://{resources}/layout/hud/strafe-graph.xml');
 
 declare interface MomHudPowerupTimer extends AbstractHudPanel<'MomHudPowerupTimer'> {}
 UiToolkitAPI.RegisterHUDPanel2d('MomHudPowerupTimer', 'file://{resources}/layout/hud/powerup-timer.xml');

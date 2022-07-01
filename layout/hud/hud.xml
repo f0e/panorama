@@ -12,6 +12,7 @@
 			<MomHudConcEntities />
 			<MomHudDamageIndicator />
 			<MomHudCgaz />
+			<MomHudStrafeGraph />
 			<MomHudReticle />
 		</Panel>
 

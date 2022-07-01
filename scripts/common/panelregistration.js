@@ -31,6 +31,8 @@
 	UiToolkitAPI.RegisterHUDPanel2d('MomHudCgaz', 'file://{resources}/layout/hud/cgaz.xml');
 	UiToolkitAPI.RegisterHUDPanel2d('MomHudSpecInfo', 'file://{resources}/layout/hud/specinfo.xml');
 
+	UiToolkitAPI.RegisterHUDPanel2d('MomHudStrafeGraph', 'file://{resources}/layout/hud/strafegraph.xml');
+
 	UiToolkitAPI.RegisterPanel2d('ToastManager', 'file://{resources}/layout/toast/toast_manager.xml');
 	UiToolkitAPI.RegisterPanel2d('ToastGeneric', 'file://{resources}/layout/toast/toast_generic.xml');
 })();

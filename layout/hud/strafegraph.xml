@@ -1,0 +1,11 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/main.scss" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/hud/strafegraph.js" />
+	</scripts>
+	<MomHudStrafeGraph class="strafegraph" alternateTicks="false">
+		<UICanvas id="StrafeGraph" class="strafegraph__canvas" allowDrawing="true" />
+	</MomHudStrafeGraph>
+</root>
